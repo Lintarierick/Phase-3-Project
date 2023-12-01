@@ -9,7 +9,7 @@ In the telecommunications industry, customer churn poses a significant challenge
 The project's aim is to:
 
 Find the most significant predictors of churn to uncover meaningful patterns that can inform the likelihood of customer churn 
-Create Machine Learning based predictive models that can show likelihood of a customer leaving the services of SyriaTel Company.
+Create Machine Learning based predictive models that can show the likelihood of a customer leaving the services of Syriatel Company.
 Inform of targeted preventive measures to retain customers.
 
 
@@ -31,7 +31,7 @@ The [presentation](https://) gives a high-level overview of our approach, findin
 
 * **Data**
 
-The dataset can be found in the file *bigml_59c28831336c6604c800002a.csv* in the Data folder, in this repository. It was obtained from kaggle from this link( https://www.kaggle.com/becksddf/churn-in-telecoms-dataset)
+The dataset can be found in the file *bigml_59c28831336c6604c800002a.csv* in the Data folder, in this repository. It was obtained from Kaggle from this link( https://www.kaggle.com/becksddf/churn-in-telecoms-dataset)
 
 ## Technologies/ Packages
 
@@ -52,14 +52,14 @@ The dataset can be found in the file *bigml_59c28831336c6604c800002a.csv* in the
 Here we will work on data cleaning, handling missing values, data transformation, handling duplicates, data reshaping and other processes to ensure that we have a clean, structured, and suitable format for analysis and modeling
 
 ## 2. Exploratory Data Analysis (EDA)
-Here we will explore the different features of the dataset to gain a better understanding of the data. We will use data vizualization to uncover trends and patterns. 
+Here we will explore the different features of the dataset to gain a better understanding of the data. We will use data visualization to uncover trends and patterns. 
     These insights suggest that certain customer behaviors and plan types are strong predictors of churn.
     Strong predictors of churn include "customer service calls", "international_plan" and "total_charges". 
 **Overview of churn prediction features**
-- Categorical features of churn include `state`, `international plan','churn', 'voice mail plan', 'phone number'.
-- Numerical variables include `account length`, `area code`, `total day minutes', 'total day calls', 'total day charge', total evening minutes', 'total evening calls', 'total evening charge', 'total night calls', 'total night minutes', 'total night charge', 'total intl calls','total intl charge', 'customer service calls '.                 `
-- it is can be noticed that as `total charges` increase, so does the risk of churn
-- more customer service calls also points to increased likelihood of churn 
+- Categorical features of churn include `state`, `international plan', 'churn', 'voice mail plan', and 'phone number'.
+- Numerical variables include `account length`, `area code`, `total day minutes', 'total day calls', 'total day charge', total evening minutes', 'total evening calls', 'total evening charge', 'total night calls', 'total night minutes', 'total night charge', 'total intl calls', 'total intl charge', 'customer service calls '.                 `
+- it can be noticed that as `total charges` increase, so does the risk of churn
+- more customer service calls also point to increased likelihood of churn 
 
 ## 3. Baseline model: Logistic Regression Model
 ### Logistic Regression Results
@@ -76,8 +76,8 @@ While the final logistic regression model has a lower overall accuracy compared 
 
 
 ## Conclusions
-These insights suggest that certain customer behaviors and plan types are strong predictors of churn. Strong predictors of churn include "customer service calls", "international_plan" and "total_charges". Therefore, the segment of customers with international plans, higher total charges, and more customer service calls are at higher risk of churn. A higher number of international calls is associated with a lower likelihood of churn.The column "state_numeric" also plays a role, but the impact might depend on the specific states.
-Although this model is reliable, it should be used in conjunction with other information for more precise prediction of customer churn.
+These insights suggest that certain customer behaviors and plan types are strong predictors of churn. Strong predictors of churn include "customer service calls", "international_plan" and "total_charges". Therefore, the segment of customers with international plans, higher total charges, and more customer service calls are at higher risk of churn. A higher number of international calls is associated with a lower likelihood of churn. The column "state_numeric" also plays a role, but the impact might depend on the specific states.
+Although this model is reliable, it should be used in conjunction with other domain information for more precise prediction of customer churn.
 
 
 ## Contributor:
