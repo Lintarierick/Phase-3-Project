@@ -1,4 +1,5 @@
 # Customer Churn Prediction
+![Image Alt Text](https://github.com/Lintarierick/Phase-3-Project/blob/main/churn.jpg)
 
 ![SyriaTel, Kaggle](https://github.com/Lintarierick/Phase-3-Project/blob/main/bigml_59c28831336c6604c800002a.csv)
 
