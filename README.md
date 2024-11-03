@@ -15,7 +15,7 @@ Inform of targeted preventive measures to retain customers.
 
 
 ## PROJECT OVERVIEW 
-We will use the SyriaTel dataset available on Kaggle (https://www.kaggle.com/becksddf/churn-in-telecoms-dataset). The goal is to "build a classifier to predict whether a customer will ("soon") stop doing business with SyriaTel, a telecommunications company".
+I will use the SyriaTel dataset available on Kaggle (https://www.kaggle.com/becksddf/churn-in-telecoms-dataset). The goal is to "build a classifier to predict whether a customer will ("soon") stop doing business with SyriaTel, a telecommunications company".
 
 ## BUSINESS UNDERSTANDING
 In the telecommunications industry, customer churn poses a significant challenge to service providers, impacting revenue streams and hindering long-term sustainability. For Syria Tel, the need to proactively identify and address factors contributing to customer churn has never been more pressing. The problem at hand is twofold: the lack of a predictive model for customer churn and a limited understanding of the key drivers that influence customer decisions to terminate their services.
@@ -23,7 +23,7 @@ In the telecommunications industry, customer churn poses a significant challenge
 ## Components
 
 * **Jupyter Notebook**
-The [Jupyter Notebook](https://github.com/Lintarierick/Phase-3-Project/blob/main/index.ipynb) is our key deliverable and contains details of our approach and methodology, data cleaning, exploratory data analysis and model building and validation.
+The [Jupyter Notebook](https://github.com/Lintarierick/Phase-3-Project/blob/main/index.ipynb) is my key deliverable and contains details of my approach and methodology, data cleaning, exploratory data analysis and model building and validation.
 
 I recommend using [nbviewer](https://nbviewer.org) to view the Jupyter Notebook.
 
@@ -50,10 +50,10 @@ The dataset can be found in the file *bigml_59c28831336c6604c800002a.csv* in the
 3. Check requirements in Technologies section above and download libraries if necessary.
 
 ## 1. Data Wrangling
-Here we will work on data cleaning, handling missing values, data transformation, handling duplicates, data reshaping and other processes to ensure that we have a clean, structured, and suitable format for analysis and modeling
+Here I will work on data cleaning, handling missing values, data transformation, handling duplicates, data reshaping and other processes to ensure that we have a clean, structured, and suitable format for analysis and modeling
 
 ## 2. Exploratory Data Analysis (EDA)
-Here we will explore the different features of the dataset to gain a better understanding of the data. We will use data visualization to uncover trends and patterns. 
+Here I will explore the different features of the dataset to gain a better understanding of the data. We will use data visualization to uncover trends and patterns. 
     These insights suggest that certain customer behaviors and plan types are strong predictors of churn.
     Strong predictors of churn include "customer service calls", "international_plan" and "total_charges". 
 **Overview of churn prediction features**
